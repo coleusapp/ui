@@ -10,8 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Amirmasoud Sheydaei",
-            "email": "amirmasood33@gmail.com",
+            "name": "Amirmasood Sheidayi",
+            "email": "amirmasoud@coleus.app",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Coleus\\Ui\\": "src/",
-            "Coleus\\Ui\\Database\\Factories\\": "database/factories/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Coleus\\Ui\\Tests\\": "tests/"
+            "Coleus\\Ui\\": ""
         }
     },
     "scripts": {
