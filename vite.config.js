@@ -9,7 +9,7 @@ export default defineConfig({
     envDir: rootPath,
     resolve: {
         alias: {
-            '@account': path.resolve(__dirname, './resources/js'),
+            '@ui': path.resolve(__dirname, './resources/js'),
         },
     },
     build: {
@@ -22,7 +22,7 @@ export default defineConfig({
             refresh: true,
             buildDirectory: 'dist',
             publicDirectory: 'resources',
-            hotFile: `${rootPath}/public/hot`
+            hotFile: `${rootPath}/public/ui.hot`
         }),
         vue({
             template: {
